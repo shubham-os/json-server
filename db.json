@@ -14,5 +14,10 @@
     }
   ]
   "todos1" : [
+    {
+       "id": 0,
+       "title": "Buy Bread",
+       "status": true
+    }
   ]
 }
