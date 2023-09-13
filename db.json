@@ -395,8 +395,7 @@
       }
     ]
   },
-  "language": {
-    "agnecy": {
+  "language/agnecy": {
       "agencyId": 142,
       "clientId": 12345,
       "langauges": [
@@ -443,103 +442,6 @@
           "status": "INACTIVE"
         }
       ]
-    },
-    "client": {
-      "agencyId": 142,
-      "clientId": 12345,
-      "langauges": [
-        {
-          "langugeCode": "en",
-          "languageName": "English",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "hi",
-          "languageName": "Hindi",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "mr",
-          "languageName": "Marathi",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "pb",
-          "languageName": "Punjabi",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "gr",
-          "languageName": "Gujarati",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "ta",
-          "languageName": "Tamil",
-          "agencyLanguageMappingId": 123,
-          "status": "INACTIVE"
-        },
-        {
-          "langugeCode": "te",
-          "languageName": "Telgu",
-          "agencyLanguageMappingId": 123,
-          "status": "INACTIVE"
-        }
-      ]
-    },
-    "multiClient": {
-      "agencyId": 142,
-      "clientId": 12345,
-      "langauges": [
-        {
-          "langugeCode": "en",
-          "languageName": "English",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "hi",
-          "languageName": "Hindi",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "mr",
-          "languageName": "Marathi",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "pb",
-          "languageName": "Punjabi",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "gr",
-          "languageName": "Gujarati",
-          "agencyLanguageMappingId": 123,
-          "status": "ACTIVE"
-        },
-        {
-          "langugeCode": "ta",
-          "languageName": "Tamil",
-          "agencyLanguageMappingId": 123,
-          "status": "INACTIVE"
-        },
-        {
-          "langugeCode": "te",
-          "languageName": "Telgu",
-          "agencyLanguageMappingId": 123,
-          "status": "INACTIVE"
-        }
-      ]
-    }
   },
   "skuList": {
     "agencyId": 142,
