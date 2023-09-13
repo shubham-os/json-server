@@ -1,4 +1,499 @@
 {
-  "chatbots": [],
-  "chats": []
+  "feedData": {
+    "data": [
+      {
+        "adminProductId": 1,
+        "skuId": "altroz",
+        "uiSkuName": "Altroz",
+        "language": "English",
+        "skuColumnList": [
+          {
+            "uiColumnName": "Agency Id",
+            "fieldName": "product.agency_id",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 1,
+            "agencyColumnMappingId": 11,
+            "overrideLevel": "NO_OVERRIDE",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": 352,
+            "columnName": "agency_id"
+          },
+          {
+            "uiColumnName": "Product Id",
+            "fieldName": "product.admin_product_id",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 2,
+            "agencyColumnMappingId": 12,
+            "overrideLevel": "NO_OVERRIDE",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Altroz",
+            "columnName": "agency_product_id"
+          },
+          {
+            "uiColumnName": "Language",
+            "fieldName": "language_mapping_id",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 3,
+            "agencyColumnMappingId": 13,
+            "overrideLevel": "NO_OVERRIDE",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "English",
+            "columnName": "agency_language_mapping_id"
+          },
+          {
+            "uiColumnName": "Availability",
+            "fieldName": "product.availability",
+            "validationRegex": null,
+            "metadata": {
+              "type": "ENUM",
+              "enumValues": [
+                {
+                  "value": "AVAILABLE",
+                  "displayName": "In Stock"
+                }
+              ]
+            },
+            "columnConfigId": 4,
+            "agencyColumnMappingId": 14,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "AVAILABLE",
+            "columnName": "availability"
+          },
+          {
+            "uiColumnName": "Description",
+            "fieldName": "product.description",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 5,
+            "agencyColumnMappingId": 15,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "ALtroz car",
+            "columnName": "description"
+          },
+          {
+            "uiColumnName": "Image",
+            "fieldName": "product.image",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 6,
+            "agencyColumnMappingId": 16,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "image link",
+            "columnName": "image"
+          },
+          {
+            "uiColumnName": "Title",
+            "fieldName": "product.title",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 7,
+            "agencyColumnMappingId": 17,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Altroz carr",
+            "columnName": "title"
+          },
+          {
+            "uiColumnName": "Price",
+            "fieldName": "product.price",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 8,
+            "agencyColumnMappingId": 18,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "900000",
+            "columnName": "price"
+          },
+          {
+            "uiColumnName": "Sale Price",
+            "fieldName": "product.sale_price",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 9,
+            "agencyColumnMappingId": 19,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "850000",
+            "columnName": "sale_price"
+          },
+          {
+            "uiColumnName": "Formatted Price",
+            "fieldName": "product.formatted_price",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 10,
+            "agencyColumnMappingId": 20,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Rs 850000",
+            "columnName": "formatted_price"
+          },
+          {
+            "uiColumnName": "Offer",
+            "fieldName": "product.offer",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 11,
+            "agencyColumnMappingId": 21,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Offer upto 100000",
+            "columnName": "offer"
+          },
+          {
+            "uiColumnName": "USP",
+            "fieldName": "product.usp",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 12,
+            "agencyColumnMappingId": 22,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "5 Star rating",
+            "columnName": "usp"
+          },
+          {
+            "uiColumnName": "Keywords",
+            "fieldName": "product.keywords",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 13,
+            "agencyColumnMappingId": 23,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Altroz, car near me",
+            "columnName": "keywords"
+          },
+          {
+            "uiColumnName": "Google Headlines",
+            "fieldName": "product.google_headlines",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 14,
+            "agencyColumnMappingId": 24,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Headline for facebook",
+            "columnName": "custom_label_1"
+          },
+          {
+            "uiColumnName": "Facebook Headlines",
+            "fieldName": "product.facebook_headlines",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 15,
+            "agencyColumnMappingId": 25,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Headlone for google",
+            "columnName": "custom_label_2"
+          }
+        ]
+      },
+      {
+        "adminProductId": 2,
+        "skuId": "nexon",
+        "uiSkuName": "Nexon",
+        "language": "English",
+        "skuColumnList": [
+          {
+            "uiColumnName": "Agency Id",
+            "fieldName": "product.agency_id",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 1,
+            "agencyColumnMappingId": 11,
+            "overrideLevel": "NO_OVERRIDE",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": 352,
+            "columnName": "agency_id"
+          },
+          {
+            "uiColumnName": "Product Id",
+            "fieldName": "product.admin_product_id",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 2,
+            "agencyColumnMappingId": 12,
+            "overrideLevel": "NO_OVERRIDE",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Nexon",
+            "columnName": "agency_product_id"
+          },
+          {
+            "uiColumnName": "Language",
+            "fieldName": "language_mapping_id",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 3,
+            "agencyColumnMappingId": 13,
+            "overrideLevel": "NO_OVERRIDE",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "English",
+            "columnName": "agency_language_mapping_id"
+          },
+          {
+            "uiColumnName": "Availability",
+            "fieldName": "product.availability",
+            "validationRegex": null,
+            "metadata": {
+              "type": "ENUM",
+              "enumValues": [
+                {
+                  "value": "AVAILABLE",
+                  "displayName": "In Stock"
+                }
+              ]
+            },
+            "columnConfigId": 4,
+            "agencyColumnMappingId": 14,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "AVAILABLE",
+            "columnName": "availability"
+          },
+          {
+            "uiColumnName": "Description",
+            "fieldName": "product.description",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 5,
+            "agencyColumnMappingId": 15,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Nexon car",
+            "columnName": "description"
+          },
+          {
+            "uiColumnName": "Image",
+            "fieldName": "product.image",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 6,
+            "agencyColumnMappingId": 16,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "image link",
+            "columnName": "image"
+          },
+          {
+            "uiColumnName": "Title",
+            "fieldName": "product.title",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 7,
+            "agencyColumnMappingId": 17,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Nexon carr",
+            "columnName": "title"
+          },
+          {
+            "uiColumnName": "Price",
+            "fieldName": "product.price",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 8,
+            "agencyColumnMappingId": 18,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "900000",
+            "columnName": "price"
+          },
+          {
+            "uiColumnName": "Sale Price",
+            "fieldName": "product.sale_price",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 9,
+            "agencyColumnMappingId": 19,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "850000",
+            "columnName": "sale_price"
+          },
+          {
+            "uiColumnName": "Formatted Price",
+            "fieldName": "product.formatted_price",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 10,
+            "agencyColumnMappingId": 20,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Rs 850000",
+            "columnName": "formatted_price"
+          },
+          {
+            "uiColumnName": "Offer",
+            "fieldName": "product.offer",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 11,
+            "agencyColumnMappingId": 21,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Offer upto 100000",
+            "columnName": "offer"
+          },
+          {
+            "uiColumnName": "USP",
+            "fieldName": "product.usp",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 12,
+            "agencyColumnMappingId": 22,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "5 Star rating",
+            "columnName": "usp"
+          },
+          {
+            "uiColumnName": "Keywords",
+            "fieldName": "product.keywords",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 13,
+            "agencyColumnMappingId": 23,
+            "overrideLevel": "ADMIN",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Nexon, car near me",
+            "columnName": "keywords"
+          },
+          {
+            "uiColumnName": "Google Headlines",
+            "fieldName": "product.google_headlines",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 14,
+            "agencyColumnMappingId": 24,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Headline for facebook",
+            "columnName": "custom_label_1"
+          },
+          {
+            "uiColumnName": "Facebook Headlines",
+            "fieldName": "product.facebook_headlines",
+            "validationRegex": null,
+            "metadata": null,
+            "columnConfigId": 15,
+            "agencyColumnMappingId": 25,
+            "overrideLevel": "CLIENT",
+            "isSellerLevelOverrideColumn": false,
+            "feedValue": "Headlone for google",
+            "columnName": "custom_label_2"
+          }
+        ]
+      }
+    ]
+  },
+  "languageList": {
+    "agencyId": 142,
+    "clientId": 12345,
+    "langauges": [
+      {
+        "langugeCode": "en",
+        "languageName": "English",
+        "agencyLanguageMappingId": 123,
+        "status": "ACTIVE"
+      },
+      {
+        "langugeCode": "hi",
+        "languageName": "Hindi",
+        "agencyLanguageMappingId": 123,
+        "status": "ACTIVE"
+      },
+      {
+        "langugeCode": "mr",
+        "languageName": "Marathi",
+        "agencyLanguageMappingId": 123,
+        "status": "ACTIVE"
+      },
+      {
+        "langugeCode": "pb",
+        "languageName": "Punjabi",
+        "agencyLanguageMappingId": 123,
+        "status": "ACTIVE"
+      },
+      {
+        "langugeCode": "gr",
+        "languageName": "Gujarati",
+        "agencyLanguageMappingId": 123,
+        "status": "ACTIVE"
+      },
+      {
+        "langugeCode": "ta",
+        "languageName": "Tamil",
+        "agencyLanguageMappingId": 123,
+        "status": "INACTIVE"
+      },
+      {
+        "langugeCode": "te",
+        "languageName": "Telgu",
+        "agencyLanguageMappingId": 123,
+        "status": "INACTIVE"
+      }
+    ]
+  },
+  "skuList": {
+    "agencyId": 142,
+    "skuList": [
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata Tigor",
+        "skuId": "tata_tigor",
+        "status": "ACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata Nixon",
+        "skuId": "tata_nixon",
+        "status": "ACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata EV",
+        "skuId": "tata_ev",
+        "status": "ACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata XUV",
+        "skuId": "tata_xuv",
+        "status": "ACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata Tigor1",
+        "skuId": "tata_tigor",
+        "status": "INACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata Nixon1",
+        "skuId": "tata_nixon1",
+        "status": "INACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata EV1",
+        "skuId": "tata_ev1",
+        "status": "INACTIVE"
+      },
+      {
+        "agencyProductId": 123,
+        "uiSkuName": "Tata XUV1",
+        "skuId": "tata_xuv1",
+        "status": "INACTIVE"
+      }
+    ]
+  }
 }
